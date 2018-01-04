@@ -1,1 +1,55 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  font-family: 'Khula', sans-serif;
+}
+
+.component-style {
+  margin: 10px;
+  padding: 10px;
+}
+
+.component-tag, .component-tag-sm {
+  color: gray;
+  font-weight: bold;
+  text-align: right;
+}
+
+.component-tag-sm {
+  font-size: 0.8em;
+  margin-bottom: 5px;
+}
+
+.app-component {
+  border: 2px solid red;
+  background-color: lavenderBlush;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.table-component {
+  border: 2px solid blue;
+  background-color: lightblue;
+}
+
+.table-row-component {
+  border: 2px solid green;
+  background-color: #cefdce;
+}
+
+table {
+  width: 100%;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.table-row-component td {
+  border: 1px solid lightGreen;
+}
+
+th, td {
+  padding: 15px;
+}

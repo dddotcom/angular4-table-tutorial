@@ -1,0 +1,17 @@
+<div class="component-style table-component">
+
+  <div class="component-tag">
+    <span>app-table</span>
+  </div>
+
+  <br>
+
+  <table>
+    <tr>
+      <th *ngFor="let c of columns">{{c}}</th>
+    </tr>
+    <tr class="component-style table-row-component" *ngFor="let ch of characters | async" app-table-row [character]="ch" [columns]="columns">
+    </tr>
+    <!-- <app-table-row-incorrect *ngFor="let ch of characters | async" [ch]="ch" [keys]="columns"></app-table-row-incorrect> -->
+  </table>
+</div>

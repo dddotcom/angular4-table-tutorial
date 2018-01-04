@@ -1,0 +1,8 @@
+<tr>
+  <td *ngFor="let k of keys; last as isLast">
+    <div *ngIf="isLast" class="component-tag-sm">
+      <span>app-table-row</span>
+    </div>
+    {{ch[k]}}
+  </td>
+</tr>
